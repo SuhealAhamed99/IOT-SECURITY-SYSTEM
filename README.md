@@ -25,11 +25,12 @@ The ESP32 continuously monitors a PIR motion sensor connected to GPIO14.
   🔸 Serial Monitor prints "Motion Detected!" for debugging
 
 ✅ When motion stops:
+
   🔹 The buzzer and LED turn OFF
   🔹 The Blynk virtual LED is switched OFF
   🔹 Serial Monitor prints "Motion Ended"
 
-🧰 Components Used
+🧰 Components Used :
 
 📦 ESP32 Dev Board
 
@@ -43,7 +44,7 @@ The ESP32 continuously monitors a PIR motion sensor connected to GPIO14.
 
 🧪 Wokwi Simulator (optional for testing)
 
-⚙️ Features
+⚙️ Features :
 
 ✅ Real-time motion detection and alert
 
@@ -57,7 +58,7 @@ The ESP32 continuously monitors a PIR motion sensor connected to GPIO14.
 
 ✅ Simple, effective security prototype
 
-🔌 Connections
+🔌 Connections :
 
 🔧 Component	 → ⚡ ESP32 Pin
 
@@ -65,7 +66,7 @@ PIR Sensor	→ GPIO14
 Buzzer	→ GPIO15
 LED	→ GPIO2
 
-📱 Blynk Configuration
+📱 Blynk Configuration :
 
 🏷️ Template Name: IOT Security System Task 3
 
@@ -77,15 +78,15 @@ LED	→ GPIO2
 
 🔘 Widget Used: LED widget to display motion status
 
-🖼️ Output Preview
+🖼️ Output Preview :
 
-Include in your GitHub repo:
+Include in THE GitHub repo:
 
 🔌 Circuit diagram or Wokwi screenshot
 
 📱 Blynk app screenshots showing motion alert
 
-🔔 Photos or video of buzzer + LED activation
+🔔 Photos oF LED activation
 
 🖥️ Serial Monitor output logs
 
