@@ -12,22 +12,28 @@
 
 *MENTOR*: NEELA SANTOSH
 
-🔐 Task 3: IoT Security System using Blynk and ESP32
+🔐 Task 3: IoT Security System:
+
 This project demonstrates a simple IoT-based security system that detects motion using a PIR sensor and alerts users via the Blynk IoT platform. The system activates a buzzer and LED alarm locally and sends notifications to the Blynk dashboard for real-time monitoring.
 
-📲 Overview
+📲 Overview:
+
 The ESP32 continuously monitors a PIR motion sensor connected to GPIO14.
 
 ⚠️ When motion is detected:
 
   🔸 The buzzer and LED on GPIO15 and GPIO2 respectively turn ON
+  
   🔸 A motion alert is sent to the Blynk app via a virtual LED on pin V2 and a log event notification
+  
   🔸 Serial Monitor prints "Motion Detected!" for debugging
 
 ✅ When motion stops:
 
   🔹 The buzzer and LED turn OFF
+  
   🔹 The Blynk virtual LED is switched OFF
+  
   🔹 Serial Monitor prints "Motion Ended"
 
 🧰 Components Used :
@@ -63,7 +69,9 @@ The ESP32 continuously monitors a PIR motion sensor connected to GPIO14.
 🔧 Component	 → ⚡ ESP32 Pin
 
 PIR Sensor	→ GPIO14
+
 Buzzer	→ GPIO15
+
 LED	→ GPIO2
 
 📱 Blynk Configuration :
